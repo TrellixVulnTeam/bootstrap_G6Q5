@@ -11,42 +11,42 @@
     <title>Bordeaux | Equipo de futbol amateur </title>
   </head>
   <body class="bg-dark">
-    <nav class="container-fluid">
-      <div class="row navbar navbar-expand-lg navbar-dark bg-danger">
-          <div class="container">
-            <div class="col-md-2">
-              <a href="./index.html"><img src="./imagenes/burde.png" alt="Logo" width="65px"></a>
-            </div>
-          <div class="col-md-10">
-              <ul class="nav justify-content-center ">
-                  <button type="button" class="btn btn-outline-warning">
-                      <li class="nav-item">
-                        <a class="nav-link active text-dark" aria-current="page" href="./index.html">Home</a>
-                      </li>
-                    </button>
-                    <button type="button" class="btn btn-outline-warning">
-                      <li class="nav-item">
-                        <a class="nav-link text-dark" aria-current="page" href="./galeria.html">Galeria</a>
-                      </li>
-                    </button>
-                    <button type="button" class="btn btn-outline-warning">
-                      <li class="nav-item">
-                        <a class="nav-link text-dark" aria-current="page" href="./contacto.html">Contactanos</a>
-                      </li>
-                    </button>
-                </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./imagenes/burde.png" alt="Logo" width="65px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex ms-auto">
+              <button type="button" class="btn btn-outline-warning">
+                  <li class="nav-item">
+                    <a class="nav-link active text-dark" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                </button>
+                <button type="button" class="btn btn-outline-warning">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" aria-current="page" href="./galeria.html">Galeria</a>
+                  </li>
+                </button>
+                <button type="button" class="btn btn-outline-warning">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" aria-current="page" href="./contacto.html">Contactanos</a>
+                  </li>
+                </button>
+            </ul>
+        </div>
       </div>
-  </nav>
+    </nav>
 
   <main class="container-fluid">
     <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="./imagenes/elplantel.jpg" class="float-start img-fluid py-3" alt="Tabla">
+            <img src="./imagenes/elplantel.jpg" class="float-start img-fluid py-5" alt="Tabla">
           </div>
           <div class="col-md-6">
-            <img src="./imagenes/shop1.jpg"  class="float-end img-fluid py-3" alt="Tabla"> <a href="./shop.html"><button type="button" class="btn btn-outline-danger">Shop now</button></a>
+            <img src="./imagenes/shop1.jpg"  class="float-end img-fluid py-5" alt="Tabla"> <a href="./shop.html"><button type="button" class="btn btn-outline-danger">Shop now</button></a>
             <figure class="text-center">
               <blockquote class="blockquote text-danger">
               <p>¡SHOP ONLINE!</p>
@@ -60,9 +60,24 @@
     </div>
   </main>
   <br>
+  <footer class="container-fluid py-5" id="sticky-foote">
+    <div class="container">
+      <div class="row">
+        <div class="text-center py-5 bg-black">
+            <h4 class="text-white">Principales Sponsors</h4>
+        </div>
+        <div class="col-md-12">
+          <img src="./imagenes/gatorade1.png" class="rounded float-start" width="25%" height="100%" alt="...">
+          <img src="./imagenes/audi1.png" class="rounded float-end" width="25%" height="100%" alt="...">
+          <img src="./imagenes/descarga.png" class="rounded mx-auto d-block" width="25%" height="100%" alt="...">
+        </div>
+      </div>
+    </div>
+  </footer>
+
   <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
-    <div class="container text-center">
-      <p class="display-4 text-danger">¡Seguinos en nuestra cuenta oficial! <a href="https://www.instagram.com/elburde/"><img src="./imagenes/ig100.png" class="align-items-lg-end py-2" width="85px" height="auto"></a></p>
+    <div class="container text-center pt-5">
+      <p class="display-4 text-danger">¡Seguinos en nuestra cuenta oficial!<a href="https://www.instagram.com/elburde/"><img src="./imagenes/ig100.png" class="align-items-lg-end py-2" width="85px" height="auto"></a></p>
     </div>
   </footer>
 

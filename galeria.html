@@ -9,60 +9,50 @@
     <title>Galeria | Equipo de futbol amateur</title>
   </head>
   <body class="bg-dark">
-    <nav class="container-fluid">
-      <div class="row navbar navbar-expand-lg navbar-dark bg-danger">
-          <div class="container">
-            <div class="col-md-2">
-              <a href="./index.html"><img src="./imagenes/burde.png" alt="Logo" width="65px"></a>
-            </div>
-          <div class="col-md-10">
-              <ul class="nav justify-content-center">
-                  <button type="button" class="btn btn-outline-warning">
-                      <li class="nav-item">
-                        <a class="nav-link text-dark" aria-current="page" href="./index.html">Home</a>
-                      </li>
-                    </button>
-                    <button type="button" class="btn btn-outline-warning">
-                      <li class="nav-item">
-                        <a class="nav-link active text-dark" aria-current="page" href="./galeria.html">Galeria</a>
-                      </li>
-                    </button>
-                    <button type="button" class="btn btn-outline-warning">
-                      <li class="nav-item">
-                        <a class="nav-link text-dark" aria-current="page" href="./contacto.html">Contactanos</a>
-                      </li>
-                    </button>
-                    <button type="button" class="btn btn-outline-warning">
-                      <li class="nav-item">
-                        <a class="nav-link text-dark" aria-current="page" href="./shop.html">Shop Now!</a>
-                      </li>
-                    </button>
-                </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./imagenes/burde.png" alt="Logo" width="65px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex ms-auto">
+            <button type="button" class="btn btn-outline-warning">
+                <li class="nav-item">
+                  <a class="nav-link text-dark" aria-current="page" href="./index.html">Home</a>
+                </li>
+              </button>
+              <button type="button" class="btn btn-outline-warning">
+                <li class="nav-item">
+                  <a class="nav-link active text-dark" aria-current="page" href="./galeria.html">Galeria</a>
+                </li>
+              </button>
+              <button type="button" class="btn btn-outline-warning">
+                <li class="nav-item">
+                  <a class="nav-link text-dark" aria-current="page" href="./contacto.html">Contactanos</a>
+                </li>
+              </button>
+              <button type="button" class="btn btn-outline-warning">
+                <li class="nav-item">
+                  <a class="nav-link text-dark" aria-current="page" href="./shop.html">Shop Now!</a>
+                </li>
+              </button>
+          </ul>
+        </div>
       </div>
-  </nav>
+    </nav>
     
 
     <br>
   
-    <div class="container-fluid">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-5">
-                    <p class="h1 text-center text-warning pt-5">Galeria</p>
-                </div>
-                <div class="col-5">
-                    <p class="h1 text-center text-warning pt-5">Videos</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
 
     <div class="container-fluid py-5">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-6">
+                <div class="col-lg-6 col-sm-12 py-5">
+                  <div>
+                    <p class="h1 text-center text-warning pt-5">Galeria</p>
+                  </div>
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
@@ -94,8 +84,11 @@
                         </button>
                         </div>
                 </div>
-                <div class="col-6">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/A2DIz1W5lj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="col-lg-6 col-sm-12 py-5">
+                  <div>
+                    <p class="h1 text-center text-warning">Videos</p>
+                </div>
+                    <iframe width="100%" height="100%%" src="https://www.youtube.com/embed/A2DIz1W5lj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
             </div>
         </div>
